@@ -1,10 +1,40 @@
 #game-board{
-  background-color: black
+  background-color: black;
 }
-
 
 body{
   font-family:'Courier New', Courier, monospace;
   text-align: center;
   background-color: lightgreen;
+}
+
+#game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#game-over-message {
+  font-size: 24px;
+  color: red;
+  margin-top: 20px;
+  display: none;
+}
+
+#restart-button {
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: none;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+#restart-button:hover {
+  background-color: #005f79;
 }
